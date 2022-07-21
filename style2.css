@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: #161616;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 120px 50px 120px;
+    border-radius: 15px;
+    
+
+}
+.header-1-box{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.header-1{
+    padding: 50px;
+}
+.header-2{
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.button{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 270px 3fr;
+    grid-gap: 10px;
+    margin: 50px 120px 50px 120px;
+}
+.main-1-1{
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+.main-top{
+    background-color: red;
+    color: aliceblue;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.main-bottoms{
+    background-color: aliceblue;
+    color: #161616;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+}
+.main-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+
+.main-2-1
+{
+    background-color: white;
+    padding: 35px 20px 20px 20px; 
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    justify-content: center;
+}
+.flag{
+    display: flex;
+}
+.match{
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #161616;
+    color: white;
+  }
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    padding: 100px;
+}
